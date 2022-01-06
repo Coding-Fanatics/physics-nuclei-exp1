@@ -1,4 +1,3 @@
-
 import numpy as np
 import matplotlib.pyplot as mat
 
@@ -97,10 +96,4 @@ def start():
     else:
         print("thank you")
     
-start()    
-    
-    
-    
-
-    
-    
+start() 
