@@ -12,6 +12,8 @@ int main() {
     int time_=0;
     double num=0;
     int j=0,n=0;
+    
+    //taking input from the user
 
     cout << "Enter number of nuclei: ";
     cin >> no_of_nuclei;
@@ -24,6 +26,8 @@ int main() {
 
     cout << endl;
     cout << "No. " << endl;
+    
+    //generating/running the random function
     
     srand(time(0));
     while(n!=no_of_nuclei) {
@@ -50,6 +54,7 @@ int main() {
         n++;
     }
     
+    //re-running the program
     
         char c;
         cout << "Enter q to quit." << endl;
